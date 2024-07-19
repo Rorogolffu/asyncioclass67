@@ -1,7 +1,7 @@
 import asyncio
 
 class AsyncDatabaseConnection:
-    def _init_(self, db_name):
+    def __init__(self, db_name):
         self.db_name = db_name
 
     async def _aenter_(self):
