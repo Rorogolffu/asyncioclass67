@@ -25,6 +25,6 @@ async def main():
     # get the first task to fail
     first = done.pop()
     print(first)
-    
+
 # start the asyncio program
 asyncio.run(main())

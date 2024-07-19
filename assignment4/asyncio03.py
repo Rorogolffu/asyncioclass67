@@ -7,7 +7,7 @@ async def task_coro(value):
     print(f'>task {value} executing')
     # sleep for a moment
     await asyncio.sleep(1)
-    
+
 # coroutine used for the entry point
 async def main():
     # report a message
@@ -18,6 +18,6 @@ async def main():
     await asyncio.gather(*coros)
     # report a message
     print('main done')
-    
+
 # start the asyncio program
 asyncio. run(main())

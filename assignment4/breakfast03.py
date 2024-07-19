@@ -21,7 +21,7 @@ async def main():
     # Run tasks concurrently
     coffee_task = asyncio.create_task(make_coffee())
     eggs_task = asyncio.create_task(fry_eggs())
-    
+
     await coffee_task
     await eggs_task
     print(f"Breakfast is ready in {time()-start} min")
