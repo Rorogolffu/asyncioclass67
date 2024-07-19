@@ -1,5 +1,4 @@
 # example of gather for many coroutines in a list
-<<<<<<< HEAD
 import asyncio
 
 # coroutine used for a task
@@ -22,5 +21,3 @@ async def main():
 
 # start the asyncio program
 asyncio. run(main())
-=======
->>>>>>> e56844d5c8cb118746d07e5b8dcb729f3b4e8cad

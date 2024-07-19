@@ -1,5 +1,4 @@
 # example of waiting for the first task to complete
-<<<<<<< HEAD
 from random import random
 import asyncio
 
@@ -26,5 +25,4 @@ async def main():
 
 # start the asyncio program
 asyncio.run(main())
-=======
->>>>>>> e56844d5c8cb118746d07e5b8dcb729f3b4e8cad
+
