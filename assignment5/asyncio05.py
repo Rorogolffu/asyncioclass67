@@ -21,7 +21,8 @@ async def main():
     tasks = [
     asyncio.create_task(task_coro('rice'), name="rice"),
     asyncio.create_task(task_coro('noodle'), name="noodle"),
-    asyncio.create_task(task_coro('curry'), name="curry")
+    asyncio.create_task(task_coro('curry'), name="curry"),
+    asyncio.create_task(task_coro('tomyum'), name="tomyum")
     ]
     # wait for the first task to complete
     done, pending = await asyncio.wait(tasks, timeout=10, return_when=asyncio.FIRST_COMPLETED)
