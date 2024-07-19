@@ -2,6 +2,7 @@
 import asyncio
 from time import sleep, time
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 async def make_coffee(): # 1
@@ -26,5 +27,7 @@ async def main(): #1
     
     
 asyncio.run(main()) # run top-level function concurrently
+=======
+>>>>>>> e56844d5c8cb118746d07e5b8dcb729f3b4e8cad
 =======
 >>>>>>> e56844d5c8cb118746d07e5b8dcb729f3b4e8cad
