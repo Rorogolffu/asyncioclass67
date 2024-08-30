@@ -5,6 +5,7 @@ import time
 import random
 from pypokemon.pokemon import Pokemon
 
+<<<<<<< HEAD
 # สร้าง Flask application
 app = Flask(__name__)
 
@@ -57,5 +58,19 @@ async def index():
     return render_template('index.html', pokemons=pokemons, end_time=end_time, start_time=start_time)
 
 # รัน Flask app ในโหมด debug ที่ port 50001
+=======
+
+app = Flask(__name__)
+
+async def get_pokemon(client, url):
+    pass
+
+async def get_pokemons():
+    pass
+
+@app.route('/')
+async def index():
+    pass
+>>>>>>> 4394173d61138a69aedfe37bca8b8d4e2a133a37
 if __name__ == '__main__':
     app.run(debug=True, port=50001)
